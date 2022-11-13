@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>GOOGLE SEARCH FORM EXAMPLE</title>
+  <link href="https://iconarchive.com/download/i38830/google/chrome/Google-Chrome.ico" rel="icon"/>
+</head>
+<>
+
+  <h1>GOOGLE SEARCH FORM EXAMPLE</h1>
+  <img src="https://icons.iconarchive.com/icons/google/chrome/128/Google-Chrome-icon.png" alt="Google icon" />
+
+  <form action="https://www.google.com/search">
+    <input 
+    type="text" 
+    size="60" 
+    name="q"
+    pattern="[A-Za-z]{3,}" 
+    required/>
+    <!--<select name="q">
+      <option>HTML Wiki</option>
+      <option>Css Wiki</option>
+    </select> -->
+    <button>Get Google HELP!!!</button>
+  </form>
+
+   <h2>YANDEX SEARCH FORM EXAMPLE</h2> <br/>
+   <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/yandex-browser-beta-icon.png" alt="Yandex icon" />
+ 
+  <form action="https://yandex.com/search">
+    <!--<input 
+    type="text"
+    size="60"
+    name="text"/> -->
+    <textarea name="text" maxlength="20" required>
+      Type here, max 20 characters
+    </textarea>
+    <button>Go Yandex!!!</button>
+  </form>
+  
+  <h2>YOUTUBE SEARCH FORM EXAMPLE</h2>
+  <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/128/YouTube-icon.png" alt="Youtube icon" />
+
+  <form action="https://www.youtube.com/results">
+    <!--<input 
+    type="text"
+    size="60"
+    name="search_query" />-->   
+      <input type="radio" name="search_query" id="search" value="music" checked/>
+      <label for="search" >Music</label>
+      <input type="radio" name="search_query" id="search" value="movies"/>
+      <label for="search">Movies</label>
+      <input type="radio" name="search_query" id="search" value="food"/>
+      <label for="search">Food</label>
+    <button>Go Youtube!!!</button>
+  </form>
+</body>
+</html>
